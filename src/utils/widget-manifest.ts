@@ -77,7 +77,8 @@ export const WIDGET_MANIFEST: WidgetManifestEntry[] = [
     { type: 'worktree-branch', create: () => new widgets.GitWorktreeBranchWidget() },
     { type: 'worktree-original-branch', create: () => new widgets.GitWorktreeOriginalBranchWidget() },
     { type: 'version-update', create: () => new widgets.VersionUpdateWidget() },
-    { type: 'tip', create: () => new widgets.TipWidget() }
+    { type: 'tip', create: () => new widgets.TipWidget() },
+    { type: 'pending-self-improve', create: () => new widgets.PendingSelfImproveWidget() }
 ];
 
 export const LAYOUT_WIDGET_MANIFEST: LayoutWidgetManifestEntry[] = [
